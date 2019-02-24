@@ -3,4 +3,3 @@
 from queue import PriorityQueue
 
 class State(object):
-    
