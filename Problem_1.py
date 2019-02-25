@@ -34,6 +34,11 @@ def make_puzzle():
     puzzle.append(row2)
     puzzle.append(row3)
 
-    return puzzle
+    return str(puzzle)
 
-print(make_puzzle())
+def test_goal_state(test_puzzle):
+    goal_state = [[1,2,3],[8,0,4],[7,6,5]]
+    if goal_state == test_puzzle:
+        return True
+    else:
+        return False
